@@ -1,34 +1,12 @@
-"""Read real page numbers from the PDF outline (bookmarks) -> pages.json.
-Maps our anchor ids to the physical page on which each section heading lands."""
-import json, re, sys
+"""Read real page numbers from the PDF's named destinations (one per linked anchor) -> pages.json."""
+import json, sys
 from pypdf import PdfReader
-from prompts import CATEGORIES
-import matter as M
-
 pdf, out = sys.argv[1], sys.argv[2]
 r = PdfReader(pdf)
-flat = []
-def walk(items):
-    for it in items:
-        if isinstance(it, list): walk(it)
-        else: flat.append((it.title.strip(), r.get_destination_page_number(it) + 1))
-walk(r.outline)
-norm = lambda s: re.sub(r"\s+", "", s).lower()
-by_title = {}
-for t, p in flat: by_title.setdefault(norm(t), []).append(p)
-
-want = {
-  "sec-licence": M.LICENCE["heading"], "sec-intro": M.INTRO["heading"], "sec-quick": M.QUICKSTART["heading"],
-  "sec-finder": M.FINDER["heading"], "sec-anatomy": M.ANATOMY["heading"], "sec-brief": M.BRIEF["heading"],
-  "sec-example": "Saltgrain Bakehouse", "sec-checklist": M.CHECKLIST["heading"], "sec-closing": M.CLOSING["heading"],
-}
-for c in CATEGORIES:
-    want[f"cat-{c['n']}"] = c["title"]
-    for p in c["prompts"]: want[f"p-{p['n']}"] = p["title"]
-pages, missing = {}, []
-for k, title in want.items():
-    ps = by_title.get(norm(title))
-    if not ps: missing.append(k); continue
-    pages[k] = ps[-1] if k.startswith("sec-") and k in ("sec-closing",) else ps[0]
+pages = {k.lstrip('/'): r.get_destination_page_number(v) + 1 for k, v in r.named_destinations.items()}
 json.dump(pages, open(out, "w"), indent=1)
-print("outline entries:", len(flat), "| mapped:", len(pages), "| missing:", missing)
+need = ['sec-licence','sec-intro','sec-quick','sec-finder','sec-anatomy','sec-brief','sec-example','sec-checklist','sec-closing'] \
+     + [f'cat-{i}' for i in range(1,11)] + [f'p-{i}' for i in range(1,51)]
+missing = [k for k in need if k not in pages]
+print("destinations:", len(pages), "| missing:", missing)
+sys.exit(1 if missing else 0)
