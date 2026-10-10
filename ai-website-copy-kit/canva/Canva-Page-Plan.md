@@ -1,167 +1,178 @@
 # Canva Page Plan: The AI Website Copy Kit
 
-*50 Ready-to-Use AI Prompts for Better Website Content* · 80 pages · A4 portrait
+*50 Ready-to-Use AI Prompts for Better Website Content* · 84 pages · A4 portrait · matches `dist/The-AI-Website-Copy-Kit.pdf` (edition 2, bracket-motif design)
 
-> **Honest note.** I could not create a native Canva file from this environment (no Canva tool is connected). The finished PDF in `dist/` is the product. This plan lets you rebuild or restyle it in Canva exactly, page by page. Canva's PDF import may also give you an editable starting point, but I have not tested how faithfully it converts, so check fonts and spacing after importing.
+> **Honest note.** I could not create a native Canva file from this environment (no Canva tool is connected). The PDF in `dist/` is the finished product; this plan lets you rebuild it in Canva. Canva's PDF import may give you an editable starting point, but I have not tested how faithfully it converts. Check fonts and spacing after importing. Check Canva's current creator rules before listing anything for sale on Canva.
 
 ---
 
-## 1. Document setup
+## 1. The idea in one line
+Every placeholder a buyer fills in is a **[bracket]**. Thin cobalt brackets are the one signature graphic: they frame the cover, the prompt numerals, the prompt cards, the closing page. Nothing else is decorative.
+
+## 2. Document setup
 | Setting | Value |
 |---|---|
 | Size | A4 portrait, 210 × 297 mm (Canva: Custom size, mm) |
-| Margins (content pages) | Top 20 · Left/Right 18 · Bottom 22 mm. Use Canva's *Show margins* guides |
-| Full-bleed pages | Cover, 10 category dividers, closing page: no margins, background fills the page |
-| Footer (content pages only) | Left: *THE AI WEBSITE COPY KIT* · Inter Medium 6.8 pt, +140 tracking, uppercase, charcoal 62%. Right: page number · Inter Medium 8 pt, cobalt. Baseline about 12 mm from the bottom edge |
+| Content-page margins | Top 18 · Left/Right 20 · Bottom 24 mm (content box 170 × 255 mm) |
+| Full-bleed pages | Cover, 10 dividers, closing: no margins |
+| Page background | Ivory `#F9F8F6` on every light page |
+| Footer (content pages only) | Left: *THE AI WEBSITE COPY KIT · MAHAK'S STUDIO*, Inter SemiBold 7.4 pt, +160 tracking, uppercase, charcoal 58%. Right: page number, Playfair Display Medium 11 pt, cobalt, lining numerals. About 14 mm from the bottom edge |
+| Running head (content pages) | Top of the content box: left label, right cobalt label, Inter SemiBold 7.6 pt, +200 tracking, uppercase; 0.25 mm charcoal rule beneath; 8 mm gap to content |
 
-## 2. Colour palette (add as Brand Kit colours)
+## 3. Colour (add to Brand Kit; use nothing else)
 | Name | Hex | Use |
 |---|---|---|
-| Warm Ivory | `#F9F8F6` | Page background on all content pages; text on cobalt pages |
-| Charcoal | `#161616` | Body text, headings, rules, checkbox outlines |
-| Cobalt Blue | `#002FA7` | Kickers, placeholders, numerals, rules, buttons, divider and closing backgrounds |
-| Charcoal tint | `#161616` at 4.5% opacity | Prompt box fill (or use `#F1F0EE`) |
-| Cobalt tint | `#002FA7` at 6–10% opacity | Callout fill, [NEEDS INFO] highlight |
+| Warm Ivory | `#F9F8F6` | Page background; text on dark pages |
+| Charcoal | `#161616` | Text, rules, checkbox outlines, Fact Guard card, even-numbered dividers |
+| Cobalt Blue | `#002FA7` | Numerals, brackets, kickers, buttons, placeholders, odd-numbered dividers, closing page |
+| Placeholder wash | Cobalt at 7% | Behind placeholders on light pages |
+| Marker wash | Cobalt at 13% | Behind [NEEDS INFO] / [CHECK] markers |
+| Hairline | Charcoal at 18% | Row rules |
 
-Never add other colours. Contrast: charcoal on ivory and ivory on cobalt are both comfortably readable.
+On charcoal cards, placeholders flip to an ivory chip with cobalt text.
 
-## 3. Typography
-Fonts: **Playfair Display** (headings, numerals, pull-quotes) and **Inter** (body, labels, tables). Both are open-source and, to my knowledge, in Canva's library; confirm in the font picker. Sizes below are print points (pt). On a Canva A4 document the on-screen font-size box is in px-like units, roughly pt × 1.33, so tune by eye.
+## 4. Type (Playfair Display + Inter; both open-source, believed to be in Canva's library, so confirm)
+Sizes are print points. Canva's size box on an A4 page is roughly pt × 1.33, so tune by eye. **Use lining numerals** in Playfair for all numbers (Canva: if unavailable, check the font's number style or use Inter for numerals).
 
-| Style | Font | Size / leading | Notes |
-|---|---|---|---|
-| Cover title | Playfair Display SemiBold | 60 / 59 | "Website" in Playfair Italic, cobalt |
-| Divider numeral | Playfair Display SemiBold | 168 / 150 | Ivory, tracking −50 |
-| Divider title | Playfair Display SemiBold | 36 / 39 | Ivory |
-| Page title (H1) | Playfair Display SemiBold | 31 / 33 (prompt pages 28) | Charcoal |
-| Section head (H2) | Playfair Display SemiBold | 17 / 20 | |
-| Lead / intro line | Playfair Display Italic | 13 / 19 (prompt "use it when": 12) | |
-| Body | Inter Regular | 9.6 / 15 | |
-| Prompt text | Inter Regular | 9.1 / 14.4 | Inside prompt box |
-| Kicker / label | Inter SemiBold | 6.8–7 / 8, +180–200 tracking, uppercase | Cobalt (or charcoal 68% for secondary) |
-| Placeholder | Inter SemiBold | same as surrounding text | Cobalt `#002FA7` |
-| AI marker `[NEEDS INFO: …]` | Inter SemiBold | same | Charcoal on cobalt 10% tint |
+| Style | Font | Size / leading |
+|---|---|---|
+| Cover title | Playfair Display Medium, tracking −35, *Website* in Italic cobalt, closing cobalt square after "Kit" | 76 / 73 |
+| Divider numeral | Playfair Display Regular, tracking −50 | 200 / 164 |
+| Divider title | Playfair Display Medium | 42 / 44 |
+| Page title (H1) | Playfair Display Medium | 38 / 40 |
+| Prompt title | Playfair Display Medium | 28 / 31 |
+| Prompt numeral | Playfair Display Regular, cobalt, inside two thin brackets | 64 |
+| Section head | Playfair Display Medium | 19–23 |
+| Deck / lead | Playfair Display Italic | 13–14.5 / 20 |
+| Body | Inter Regular | 10.4 / 16.6 |
+| Prompt text | Inter Regular | 9.8 / 15.4, left-aligned |
+| Kicker / label | Inter SemiBold, +200–220 tracking, uppercase | 7.6–7.8 |
+| Rail hint text | Inter Regular | 9 / 13 |
+| Placeholder chip | Inter SemiBold, cobalt, 7% cobalt wash | same as surrounding |
 
-## 4. Grid and components
-* **Grid:** one 174 mm text column. Two-column layouts use two 82 mm columns with a 10 mm gutter.
-* **Rules:** thin charcoal rule 0.35 mm under page headers; light rule (charcoal 16%) 0.25 mm between table rows; short cobalt accent rule 18 × 0.8 mm under H1 on front-matter pages.
-* **Prompt box:** rectangle fill charcoal 4.5%, 0.9 mm cobalt rule on the left edge, 6 mm inner padding, text left-aligned, no justification.
-* **Callout (plain):** cobalt 6% fill, no edge rule, 5 mm padding.
-* **Bullets:** 1.6 mm cobalt squares, 5 mm indent.
-* **Checkbox:** 3.6 mm square, 0.35 mm charcoal outline, no fill.
-* **Button (example pages):** cobalt fill, ivory Inter SemiBold 8 pt text, 2.2 × 4 mm padding, 0.6 mm corner radius.
-* **Imagery:** none. The system is typographic; whitespace and the cobalt blocks carry the design. Avoid stock photos and icons.
-
----
-
-## 5. Master layouts (build these six as templates, then duplicate)
-**A. Cover (p.1).** Ivory background. Cobalt panel right: x 144–210 mm, full height. Left column x 20 mm, width 118 mm: kicker "A PRACTICAL PROMPT LIBRARY" at y 28; title block starts y 90 (three lines: *The AI / Website / Copy Kit*); 18 mm cobalt rule; subtitle Inter 13.5 pt, 96 mm wide. Bottom-left (y ≈ 262): audience line Inter Medium 8 pt, then "EDITION 1.0 · 2026" cobalt label. In the panel: "50" Playfair 140 pt ivory at x 152, bottom aligned to y 241; "PROMPTS" Inter SemiBold 8 pt +300 tracking beneath; one 8.4 pt line of description at the bottom.
-
-**B. Front-matter page.** Ivory, margins as above. Kicker (cobalt, 7 pt) → H1 → cobalt accent rule → lead line → content.
-
-**C. Category divider (10 pages).** Full-bleed cobalt. Kicker "CATEGORY 0N / 10" top-left at 20 × 20 mm. Large numeral at 20 × 30 mm. Title at y 104 mm (36 pt, max 150 mm wide). Blurb Inter 11.2 pt, 142 mm wide. List of the five prompts: number in Playfair SemiBold 10 pt, title in Inter Medium 10.5 pt, 0.3 mm ivory rules at 35–55% opacity between rows. "SUGGESTED ORDER" label and one sentence anchored at y 262 mm.
-
-**D. Prompt page (50 pages).** Ivory. Top row: category kicker (left, charcoal 68%) and "PROMPT N / 50" (right, cobalt), with a 0.35 mm charcoal rule beneath. H1 (28 pt) → "use it when" line (Playfair Italic 12) → label "FILL IN" → two-column table (placeholder in cobalt, 62 mm; hint, remaining width) → small line "Also uses from your brief:" with Core Six placeholders in cobalt → label "THE PROMPT — COPY EVERYTHING IN THE BOX" → prompt box → "TIP" label (cobalt) with one sentence.
-
-**E. Brief form page.** Two-column grid of questions (Inter 8.3 pt) each followed by an 8 mm writing line (0.3 mm charcoal 32%). Section headers: cobalt Playfair letter (15 pt) + uppercase label with a 0.35 mm charcoal rule beneath.
-
-**F. Checklist page.** Two columns; group title Playfair 12 pt with rule; each item = checkbox + Inter 8.7 pt text.
-
-**Closing (p.80).** Full-bleed cobalt; kicker, "Thank You" 46 pt, lead, three numbered next steps between ivory rules, closing sentence in Playfair Italic 17 pt at the bottom.
+## 5. Components
+* **Bracket.** Two L-shaped strokes (a vertical line with short horizontals toward the content). Cover: 26 × 172 mm, 1.5 mm stroke, cobalt. Prompt card: 5 mm arms, 0.6 mm stroke, full card height, 10 mm text inset. Prompt numeral: 2.6 mm arms, 0.5 mm stroke. Closing page: 22 × 190 mm, 1.4 mm, ivory. Build one, group, duplicate.
+* **Kicker.** Cobalt 1.7 mm square, 2.4 mm gap, uppercase label.
+* **Numbered rows (contents, quick-start, intro).** 0.3 mm charcoal rule above each row; numeral in Playfair cobalt at left; title in Playfair; description in Inter.
+* **Prompt card.** No fill. Brackets left and right. Text inside.
+* **Tags (worked example).** Input = charcoal outline; Prompt = cobalt outline; Output = cobalt fill with ivory text. Inter SemiBold 7.4 pt, +200 tracking, uppercase, 1.5 × 2.8 mm padding.
+* **Checkbox.** 4.4 mm square, 0.4 mm charcoal outline, no fill.
+* **Button (example pages).** Cobalt fill, ivory Inter SemiBold 8.4 pt, 2.6 × 5 mm padding, square corners.
+* **Pill (red-flag phrases).** 0.35 mm charcoal outline, fully rounded, Inter Medium 9.2 pt.
 
 ---
 
-## 6. Page-by-page build list
-Content source for every page: the files in `source/` (`prompts.py`, `matter.py`) or the editable DOCX.
+## 6. Master layouts (build once, duplicate)
+**A. Cover (p.1).** Ivory. Top row at y 18 mm: *MAHAK'S STUDIO* (left, charcoal) and *EDITION 1.0 / 2026* (right, cobalt). Brackets: left bracket at x 20, right bracket at x 164 (right edge 190), both y 50–222. Text block at x 46 mm, y 68 mm, 130 mm wide: kicker, title (3 lines), subtitle in Playfair Italic 17 pt. Stat row at y 236 mm: four columns, 0.3 mm charcoal rule above; big cobalt Playfair numeral 34 pt + uppercase label. Audience line at y ≈ 276 mm, Inter 9 pt, charcoal 62%.
 
+**B. Content page.** Running head → kicker → H1 → deck → body. Use for licence, intro, quick-start, anatomy, brief, example, checklist.
+
+**C. Divider (10 pages).** Full bleed. Odd categories cobalt, even categories charcoal. Top row (y 18 mm): *CATEGORY 0N OF 10* left, *THE AI WEBSITE COPY KIT* right, ivory. Numeral at x 17 mm, y 30 mm. Progress index at right (x 181–190 mm, y 34 mm): ten rows 6.2 mm tall, numerals 01–10 in Inter 8 pt; the current one bold with a long ivory dash, others at 50% with a short dash. Title at y 108 mm; blurb Inter 11.4 pt, 136 mm wide; list of five prompts (numeral Playfair 14 pt, title Playfair Medium 12 pt) between 0.3 mm ivory rules. *SUGGESTED ORDER* label and sentence at y 267 mm.
+
+**D. Prompt page (50 pages).** Running head: *CATEGORY 0N — TITLE* left, *PROMPT N / 50* right. Header row: numeral in brackets (left), title (right of it, 28 pt). Body grid: **left rail 54 mm**, gap 9 mm, **right card 107 mm**. Rail, top to bottom: *use it when* in Playfair Italic 11.6 pt with a charcoal rule under it; *FILL IN* label then each placeholder chip with its hint below; *FROM YOUR BRIEF* line in charcoal 62%; *TIP* pinned to the bottom of the rail with a 0.5 mm cobalt rule above. Card: label row (*THE PROMPT* cobalt left, *COPY EVERYTHING BETWEEN THE BRACKETS* grey right), then the bracketed prompt text.
+
+**E. Brief form page.** Section letter in Playfair cobalt 30 pt beside an uppercase label with 0.3 mm charcoal rule; questions in Inter 9.2 pt; each followed by a writing line (0.3 mm, charcoal 34%) 7–12 mm tall (taller on later pages).
+
+**F. Checklist page.** Two-column grid, group numeral Playfair cobalt 22 pt + group title Playfair 13 pt; items with checkbox, hairline rule below each.
+
+**G. Closing (p.84).** Full-bleed cobalt. Ivory brackets (22 × 190 mm) at y 46 mm. Centre text block between brackets: kicker, *Thank You* 58 pt, deck, three numbered next steps between ivory rules. Bottom: closing sentence in Playfair Italic 19 pt left; title and © right.
+
+---
+
+## 7. Page-by-page build list
 | Page | Layout | Content |
 |---|---|---|
 | 1 | A | Cover |
 
-| 2 | B | Licence & Notes: six definition rows (term in Playfair 10 pt, text in Inter 9.2 pt), small print at the foot |
-| 3 | B | Contents: three grouped lists (Start here / The 50 prompts / Put it into practice) with dotted-style row rules and cobalt page numbers |
-| 4 | B | All 50 prompts: two-column index grouped by category, cobalt prompt numbers and page numbers |
-| 5 | B | Introduction: lead line, two paragraphs, two-column lists (Who it is for / What is inside), callout *What it is not* |
-| 6 | B | Quick-Start Guide: five numbered steps (cobalt Playfair numerals 21 pt, time estimate right-aligned), then two bullet columns |
-| 7 | B | Which Prompt Do I Need?: 11-row table (situation, prompt numbers in cobalt) and a six-to-nine-cell *sensible order* strip |
-| 8 | B | How Every Prompt Works: four definition rows, Fact Guard in a prompt box, marker definitions |
-| 9 | E | Brief part 1: the Core Six as a 2×3 grid of cells with cobalt top rules and writing space |
-| 10 | E | Brief part 2: sections A–D, two columns |
-| 11 | E | Brief part 3: sections E–I, two columns |
-| 12 | B | Your Context Block: the template in a prompt box |
-| 13 | C | Divider 01: Homepage & Hero Messaging (blurb, five prompt titles, suggested order) |
-| 14 | D | Prompt 1: Hero Headline & Subheadline Lab |
-| 15 | D | Prompt 2: Value Proposition Builder |
-| 16 | D | Prompt 3: Full Homepage Draft, Section by Section |
-| 17 | D | Prompt 4: Benefits Section That Avoids Clichés |
-| 18 | D | Prompt 5: Five-Second Clarity Rewrite |
-| 19 | C | Divider 02: About, Story & Credibility (blurb, five prompt titles, suggested order) |
-| 20 | D | Prompt 6: Story-Led About Page |
-| 21 | D | Prompt 7: Founder & Team Bio Set |
-| 22 | D | Prompt 8: Values & Mission, Minus the Clichés |
-| 23 | D | Prompt 9: Credentials & Trust-Signal Block |
-| 24 | D | Prompt 10: “How We Work” Process Section |
-| 25 | C | Divider 03: Services & Product Pages (blurb, five prompt titles, suggested order) |
-| 26 | D | Prompt 11: Service Page Draft |
-| 27 | D | Prompt 12: Service Cards: Short Descriptions |
-| 28 | D | Prompt 13: Product Description: Benefit, Feature, Spec |
-| 29 | D | Prompt 14: Packages & Pricing Page Copy |
-| 30 | D | Prompt 15: “Which Option Is Right for Me?” Guide |
-| 31 | C | Divider 04: Calls to Action & Conversion (blurb, five prompt titles, suggested order) |
-| 32 | D | Prompt 16: Button & Microcopy Variants |
-| 33 | D | Prompt 17: Single-Offer Landing Page |
-| 34 | D | Prompt 18: Contact Page & Form Copy |
-| 35 | D | Prompt 19: Lead Magnet & Newsletter Signup |
-| 36 | D | Prompt 20: Objection Handler Section |
-| 37 | C | Divider 05: Social Proof & Trust (blurb, five prompt titles, suggested order) |
-| 38 | D | Prompt 21: Testimonial Request Message |
-| 39 | D | Prompt 22: Testimonial Tidy-Up (Real Reviews Only) |
-| 40 | D | Prompt 23: Case Study From Project Notes |
-| 41 | D | Prompt 24: FAQ Builder |
-| 42 | D | Prompt 25: Guarantee, Policy & Risk-Reversal Wording |
-| 43 | C | Divider 06: SEO & Local Visibility (blurb, five prompt titles, suggested order) |
-| 44 | D | Prompt 26: Keyword-to-Page Plan |
-| 45 | D | Prompt 27: Title Tags & Meta Descriptions |
-| 46 | D | Prompt 28: Local Service-Area Landing Page |
-| 47 | D | Prompt 29: Google Business Profile Text |
-| 48 | D | Prompt 30: Heading Outline & Internal Links |
-| 49 | C | Divider 07: Blog & Content Marketing (blurb, five prompt titles, suggested order) |
-| 50 | D | Prompt 31: Blog Topics From Customer Questions |
-| 51 | D | Prompt 32: Blog Post Outline |
-| 52 | D | Prompt 33: Blog Draft From Outline and Facts |
-| 53 | D | Prompt 34: Refresh an Old Post |
-| 54 | D | Prompt 35: Repurpose a Page Into Email & Social |
-| 55 | C | Divider 08: Editing, Tone & Brand Voice (blurb, five prompt titles, suggested order) |
-| 56 | D | Prompt 36: Brand Voice Profile From Real Samples |
-| 57 | D | Prompt 37: Rewrite in Brand Voice |
-| 58 | D | Prompt 38: Plain-Language Pass (Remove Jargon) |
-| 59 | D | Prompt 39: Tighten to a Word Count |
-| 60 | D | Prompt 40: Consistency & Terminology Audit |
-| 61 | C | Divider 09: Web Design Handoff & UX Copy (blurb, five prompt titles, suggested order) |
-| 62 | D | Prompt 41: Navigation, Button & Interface Microcopy |
-| 63 | D | Prompt 42: Error, Empty-State & Confirmation Messages |
-| 64 | D | Prompt 43: Copy Deck for a Wireframe or Design |
-| 65 | D | Prompt 44: Content-First Page Outline |
-| 66 | D | Prompt 45: Alt Text & Accessibility Copy Check |
-| 67 | C | Divider 10: Client Workflow & Agency Ops (blurb, five prompt titles, suggested order) |
-| 68 | D | Prompt 46: Tailored Discovery Questionnaire |
-| 69 | D | Prompt 47: Content Request & Chaser Emails |
-| 70 | D | Prompt 48: Explain the Copy to the Client |
-| 71 | D | Prompt 49: Client Feedback Translator |
-| 72 | D | Prompt 50: Copy Scope & Revision Wording |
-| 73 | B | Worked example 1/5: fictional-business notice, eight key facts, Core Six filled in |
-| 74 | B | Worked example 2/5: Prompt 1 filled in, three hero angles (headline Playfair 15 pt, sub, cobalt button), recommendation callout |
-| 75 | B | Worked example 3/5: custom-cakes service page shown inside a prompt-style box, Fact Guard callout |
-| 76 | B | Worked example 4/5: four FAQs, two title/meta examples with character counts |
-| 77 | B | Worked example 5/5: seven-line review (Pass/Flag), *What to notice* |
-| 78 | F | Quality checklist 1/2: groups 1–4 |
-| 79 | F | Quality checklist 2/2: groups 5–8, red-flag phrase pills (0.3 mm outline, fully rounded), note |
-| 80 | Closing | Thank You: three next steps and closing line |
+| 2 | B | Licence & Notes: six numbered terms in a 2 × 3 grid, colophon at the foot |
+| 3 | B | Contents: left rail (Start here / In practice) and ten large numbered categories with page numbers |
+| 4 | B | The 50 prompts at a glance (1/2): categories 1–5 in two columns |
+| 5 | B | The 50 prompts at a glance (2/2): categories 6–10 |
+| 6 | B | Introduction: headline in Playfair 41 pt, deck, two-column text with cobalt drop cap, three *Who it is for* columns |
+| 7 | B | Everything you need: five numbered rows, *What it is not* inside brackets |
+| 8 | B | Quick-Start Guide: five large-numeral steps with time tags |
+| 9 | B | Follow-up requests, good habits (2 × 2), a sensible order for a five-page site (3 × 3) |
+| 10 | B | Which Prompt Do I Need?: eleven rows, prompt numbers as cobalt outlined squares |
+| 11 | B | How Every Prompt Works: wireframe of a prompt page with four numbered pins, Fact Guard in a charcoal card, marker definitions |
+| 12 | E | Brief 1/5: the Core Six as a 2 × 3 grid of cards with writing lines |
+| 13 | E | Brief 2/5: detailed questions, sections A–C |
+| 14 | E | Brief 3/5: detailed questions, sections D–F |
+| 15 | E | Brief 4/5: detailed questions, sections G–I |
+| 16 | B | Your Context Block: template and the filled Saltgrain example, each inside brackets |
+| 17 | C | Divider 01 (cobalt): Homepage & Hero Messaging |
+| 18 | D | Prompt 1: Hero Headline & Subheadline Lab |
+| 19 | D | Prompt 2: Value Proposition Builder |
+| 20 | D | Prompt 3: Full Homepage Draft, Section by Section |
+| 21 | D | Prompt 4: Benefits Section That Avoids Clichés |
+| 22 | D | Prompt 5: Five-Second Clarity Rewrite |
+| 23 | C | Divider 02 (charcoal): About, Story & Credibility |
+| 24 | D | Prompt 6: Story-Led About Page |
+| 25 | D | Prompt 7: Founder & Team Bio Set |
+| 26 | D | Prompt 8: Values & Mission, Minus the Clichés |
+| 27 | D | Prompt 9: Credentials & Trust-Signal Block |
+| 28 | D | Prompt 10: “How We Work” Process Section |
+| 29 | C | Divider 03 (cobalt): Services & Product Pages |
+| 30 | D | Prompt 11: Service Page Draft |
+| 31 | D | Prompt 12: Service Cards: Short Descriptions |
+| 32 | D | Prompt 13: Product Description: Benefit, Feature, Spec |
+| 33 | D | Prompt 14: Packages & Pricing Page Copy |
+| 34 | D | Prompt 15: “Which Option Is Right for Me?” Guide |
+| 35 | C | Divider 04 (charcoal): Calls to Action & Conversion |
+| 36 | D | Prompt 16: Button & Microcopy Variants |
+| 37 | D | Prompt 17: Single-Offer Landing Page |
+| 38 | D | Prompt 18: Contact Page & Form Copy |
+| 39 | D | Prompt 19: Lead Magnet & Newsletter Signup |
+| 40 | D | Prompt 20: Objection Handler Section |
+| 41 | C | Divider 05 (cobalt): Social Proof & Trust |
+| 42 | D | Prompt 21: Testimonial Request Message |
+| 43 | D | Prompt 22: Testimonial Tidy-Up (Real Reviews Only) |
+| 44 | D | Prompt 23: Case Study From Project Notes |
+| 45 | D | Prompt 24: FAQ Builder |
+| 46 | D | Prompt 25: Guarantee, Policy & Risk-Reversal Wording |
+| 47 | C | Divider 06 (charcoal): SEO & Local Visibility |
+| 48 | D | Prompt 26: Keyword-to-Page Plan |
+| 49 | D | Prompt 27: Title Tags & Meta Descriptions |
+| 50 | D | Prompt 28: Local Service-Area Landing Page |
+| 51 | D | Prompt 29: Google Business Profile Text |
+| 52 | D | Prompt 30: Heading Outline & Internal Links |
+| 53 | C | Divider 07 (cobalt): Blog & Content Marketing |
+| 54 | D | Prompt 31: Blog Topics From Customer Questions |
+| 55 | D | Prompt 32: Blog Post Outline |
+| 56 | D | Prompt 33: Blog Draft From Outline and Facts |
+| 57 | D | Prompt 34: Refresh an Old Post |
+| 58 | D | Prompt 35: Repurpose a Page Into Email & Social |
+| 59 | C | Divider 08 (charcoal): Editing, Tone & Brand Voice |
+| 60 | D | Prompt 36: Brand Voice Profile From Real Samples |
+| 61 | D | Prompt 37: Rewrite in Brand Voice |
+| 62 | D | Prompt 38: Plain-Language Pass (Remove Jargon) |
+| 63 | D | Prompt 39: Tighten to a Word Count |
+| 64 | D | Prompt 40: Consistency & Terminology Audit |
+| 65 | C | Divider 09 (cobalt): Web Design Handoff & UX Copy |
+| 66 | D | Prompt 41: Navigation, Button & Interface Microcopy |
+| 67 | D | Prompt 42: Error, Empty-State & Confirmation Messages |
+| 68 | D | Prompt 43: Copy Deck for a Wireframe or Design |
+| 69 | D | Prompt 44: Content-First Page Outline |
+| 70 | D | Prompt 45: Alt Text & Accessibility Copy Check |
+| 71 | C | Divider 10 (charcoal): Client Workflow & Agency Ops |
+| 72 | D | Prompt 46: Tailored Discovery Questionnaire |
+| 73 | D | Prompt 47: Content Request & Chaser Emails |
+| 74 | D | Prompt 48: Explain the Copy to the Client |
+| 75 | D | Prompt 49: Client Feedback Translator |
+| 76 | D | Prompt 50: Copy Scope & Revision Wording |
+| 77 | B | Worked example 1/5: *Saltgrain Bakehouse*, Input lanes (eight facts, Core Six), legend and fictional-business note |
+| 78 | B | Worked example 2/5: Prompt 1 filled in, three hero cards, recommendation |
+| 79 | B | Worked example 3/5: custom-cakes page in a framed page mock, Fact Guard callout |
+| 80 | B | Worked example 4/5: four FAQs, two search-result previews with character counts |
+| 81 | B | Worked example 5/5: review ledger (Pass/Flag pills), *What to notice* |
+| 82 | F | Quality Checklist 1/2: groups 1–4 |
+| 83 | F | Quality Checklist 2/2: groups 5–8, red-flag phrase pills |
+| 84 | G | Thank You |
 
-## 7. Canva build steps
-1. Create a custom A4 design. Add the three colours and two fonts to a Brand Kit.
-2. Build layouts A–F once each, using the measurements above. Group repeated elements (footer, rule, label) and duplicate pages.
-3. Paste text from the DOCX or from `AI-Website-Copy-Kit-Prompt-Library.txt`. Then select each placeholder in square brackets and set it to cobalt SemiBold.
-4. Turn the contents entries and index entries into page links (Canva: select text → Link → *A page in this design*).
-5. Turn off the footer on pages 1, the ten dividers and page 80.
-6. Export as **PDF Standard** (screen) and check: all fonts present, no clipped text, page count 80, links work.
+## 8. Build steps in Canva
+1. Create a custom A4 design (210 × 297 mm). Add the three colours and two fonts to a Brand Kit.
+2. Build the bracket once, group it, and keep it in your uploads or as a duplicated group.
+3. Build layouts A–G once each with the measurements above, then duplicate pages.
+4. Paste text from the editable DOCX or `AI-Website-Copy-Kit-Prompt-Library.txt`. Set each [PLACEHOLDER] to cobalt SemiBold.
+5. Link the contents and index entries to their pages (Canva: select text → Link → *A page in this design*).
+6. Turn the footer off on pages 1, the ten dividers and page 84.
+7. Export as **PDF Standard**. Check fonts, page count (84), links, and that prompt text copies cleanly. If it does not, avoid ligatures and contextual alternates in the font settings.

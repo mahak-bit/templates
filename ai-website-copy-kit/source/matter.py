@@ -8,7 +8,7 @@ TITLE = "The AI Website Copy Kit"
 SUBTITLE = "50 Ready-to-Use AI Prompts for Better Website Content"
 YEAR = "2026"
 VERSION = "Edition 1.0"
-PUBLISHER = ""   # Add your name or brand here; it appears on the licence page when set.
+PUBLISHER = "Mahak's Studio"
 
 AUDIENCE_LINE = "For freelance web designers, developers, small agencies and small-business owners"
 
